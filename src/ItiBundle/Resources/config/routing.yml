@@ -1,3 +1,6 @@
 iti_homepage:
     path:     /
     defaults: { _controller: ItiBundle:Default:index }
+iti_create:
+    path:     /inscription
+    defaults: { _controller: ItiBundle:Default:userCreate }
