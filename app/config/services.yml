@@ -7,3 +7,7 @@ services:
 #    service_name:
 #        class: AppBundle\Directory\ClassName
 #        arguments: ["@another_service_name", "plain_value", "%parameter_name%"]
+    iti.form.registration:
+        class: ItiBundle\Form\RegistrationType
+        tags:
+            - { name: form.type, alias: iti_user_registration }
