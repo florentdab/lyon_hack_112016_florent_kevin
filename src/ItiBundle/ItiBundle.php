@@ -1,9 +1,9 @@
 <?php
 
-namespace AppBundle;
+namespace ItiBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class AppBundle extends Bundle
+class ItiBundle extends Bundle
 {
 }
