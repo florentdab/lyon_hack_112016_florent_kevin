@@ -13,4 +13,9 @@ class ItiController extends Controller
     {
         return $this->render('ItiBundle:ItiView:index.html.twig');
     }
+
+    public function userCreateAction()
+    {
+
+    }
 }

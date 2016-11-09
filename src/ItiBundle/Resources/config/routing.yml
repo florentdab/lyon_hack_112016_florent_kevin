@@ -6,4 +6,4 @@ iti_homepage:
 iti_create:
     path:    /inscription
     defaults:
-        _controller: ItiBundle:Default:userCreate
+        _controller: ItiBundle:Iti:userCreate
