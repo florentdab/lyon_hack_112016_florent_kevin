@@ -7,3 +7,9 @@ iti_create:
     path:    /inscription
     defaults:
         _controller: ItiBundle:Default:userCreate
+
+iti_bdd:
+    path:    /bdd
+    defaults:
+        _controller: ItiBundle:ParseJson:bdd
+    methods: GET
