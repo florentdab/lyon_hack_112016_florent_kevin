@@ -1,0 +1,27 @@
+ItiBundle\Entity\Parcours:
+    type: entity
+    table: null
+    repositoryClass: ItiBundle\Repository\ParcoursRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        name:
+            type: string
+            length: 255
+        type:
+            type: string
+            length: 255
+        step1:
+            type: string
+            length: 255
+        step2:
+            type: string
+            length: 255
+        step3:
+            type: string
+            length: 255
+    lifecycleCallbacks: {  }

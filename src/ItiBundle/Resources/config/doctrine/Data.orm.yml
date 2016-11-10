@@ -1,0 +1,42 @@
+ItiBundle\Entity\Data:
+    type: entity
+    table: null
+    repositoryClass: ItiBundle\Repository\DataRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        nom:
+            type: string
+            length: 255
+        adresse:
+            type: string
+            length: 255
+        codepostal:
+            type: string
+            length: 255
+        commune:
+            type: string
+            length: 255
+        telephone:
+            type: string
+            length: 255
+        tarifsmin:
+            type: string
+            length: 255
+        email:
+            type: string
+            length: 255
+        siteweb:
+            type: string
+            length: 255
+        longitude:
+            type: string
+            length: 255
+        latitude:
+            type: string
+            length: 255
+    lifecycleCallbacks: {  }
