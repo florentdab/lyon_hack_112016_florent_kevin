@@ -3,7 +3,5 @@ iti_homepage:
     defaults:
         _controller: ItiBundle:Iti:index
 
-iti_create:
-    path:    /inscription
-    defaults:
-        _controller: ItiBundle:Iti:userCreate
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"
