@@ -4,9 +4,22 @@ body {
     min-height: 100vh;
     flex-direction: column;
 }
-
+header {
+    height: 10vh;
+}
 main {
     flex: 1 0 auto;
+}
+footer{
+    height: 25vh;
+}
+footer.page-footer {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+#lyon_back {
+    background: url("../img/lyon_back.jpg");
+    height: 65vh;
 }
 
 .logoIti{
@@ -17,4 +30,29 @@ main {
 }
 .itiColor{
     color: red;
+}
+.row {
+    margin-bottom: 0;
+}
+
+.log {
+    margin: 7px;
+}
+#infoLog{
+    margin: auto;
+    margin-top: 30px;
+    height: 50vh;
+    width: 300px;
+    color: white;
+    text-align: center;
+    background-color: rgba(38, 38, 39, 0.8);
+    padding: 20px 10px ;
+    border-radius: 10px;
+    overflow: auto;
+}
+#_submit{
+    color: black;
+}
+input[type="submit"]{
+    color: black;
 }
