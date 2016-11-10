@@ -4,6 +4,7 @@ namespace ItiBundle\Entity;
 
 use FOS\UserBundle\Model\User as BaseUser;
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Validator\Constraints as Assert;
 
 /**
  * @ORM\Entity
@@ -11,7 +12,6 @@ use Doctrine\ORM\Mapping as ORM;
  */
 class User extends BaseUser
 {
-
     private $country;
     private $city;
     private $language;
