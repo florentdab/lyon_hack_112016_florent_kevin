@@ -12,17 +12,8 @@ use Symfony\Component\Validator\Constraints as Assert;
  */
 class User extends BaseUser
 {
-    /**
-     * @Assert\NotBlank(message="Veuillez entrer votre Pays", groups={"Registration", "Profile"})
-     */
     private $country;
-    /**
-     * @Assert\NotBlank(message="Veuillez entrer votre Ville", groups={"Registration", "Profile"})
-     */
     private $city;
-    /**
-     * @Assert\NotBlank(message="Veuillez entrer votre Langue", groups={"Registration", "Profile"})
-     */
     private $language;
 
     public function __construct()

@@ -10,12 +10,9 @@ ItiBundle\Entity\User:
         country:
             type: string
             length: 255
-            nullable: true
         city:
             type: string
             length: 255
-            nullable: true
         language:
             type: string
             length: 255
-            nullable: true
