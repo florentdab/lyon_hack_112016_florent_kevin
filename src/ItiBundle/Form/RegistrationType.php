@@ -10,9 +10,9 @@ class RegistrationType extends AbstractType
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder
-            ->add('country')
-            ->add('city')
-            ->add('language');
+            ->add('country', null, array('label' => 'Pays'))
+            ->add('city', null, array('label' => 'Ville'))
+            ->add('language', null, array('label' => 'Langue'));
     }
 
     public function getParent()
@@ -20,10 +20,12 @@ class RegistrationType extends AbstractType
         return 'fos_user_registration';
 
     }
+
     public function getBlockPrefix()
     {
         return 'iti_user_registration';
     }
+
     public function getCountry()
     {
         return $this->getBlockPrefix();
