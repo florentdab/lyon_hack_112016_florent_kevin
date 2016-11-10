@@ -57,7 +57,12 @@ class Data
     /**
      * @var string
      */
-    private $coordinates;
+    private $longitude;
+
+    /**
+     * @var string
+     */
+    private $latitude;
 
 
     /**
@@ -255,14 +260,36 @@ class Data
     }
 
     /**
-     * Set coordinates
+     * Set longitude
      *
-     * @param string $coordinates
+     * @param string $longitude
      * @return Data
      */
-    public function setCoordinates($coordinates)
+    public function setLongitude($longitude)
     {
-        $this->coordinates = $coordinates;
+        $this->longitude = $longitude;
+
+        return $this;
+    }
+    /**
+     * Get longitude
+     *
+     * @return string
+     */
+    public function getLongitude($longitude)
+    {
+        return $this->longitude;
+    }
+
+    /**
+     * Set coordinates
+     *
+     * @param string $latitude
+     * @return Data
+     */
+    public function setLatitude($latitude)
+    {
+        $this->latitude = $latitude;
 
         return $this;
     }
@@ -270,11 +297,11 @@ class Data
     /**
      * Get coordinates
      *
-     * @return string 
+     * @return string
      */
-    public function getCoordinates()
+    public function getLatitude()
     {
-        return $this->coordinates;
+        return $this->latitude;
     }
 
 }
